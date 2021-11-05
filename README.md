@@ -17,12 +17,14 @@ Now if we know α and Cf for this image we can get exactly those pixels location
 
 In the Blue Screen Matting Paper(https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/BlueMatt-Smith-Blinn.pdf), 
 the solution to the problem has been stated by 3 methods and one previous work of:
+
 1) Petro Vlahos Method
 2)No Blue
 3)Gray or Flesh
 4)Triangualtion
 
 My Implementation: I obtained 4 solutions by experimenting 4 methods.
+-----------------
 1) Thresholding the Image(Intuitive Way)
 2) No Blue method but customized as per the image background requirements
 3) Hybrid of first 2 methods
