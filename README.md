@@ -30,27 +30,27 @@ My Implementation: I obtained 4 solutions by experimenting 4 methods.
 The best results are obtained by the Thresholding Method
 
 
-Foreground Video
+Foreground GIF
 -------------------------
 ![Foreground Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/GreenScreen_foreground.gif)
 
-Background Video 
+Background GIF 
 --------------------------
 ![Background Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Background.gif)
 
-Thresholding Video
+Thresholding GIF
 --------------------
 ![Thresholding Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Threshold.gif)
 
-NoGreen Video 
+NoGreen GIF 
 -------------------
 ![NoGreen Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_NoGreen.gif)
 
-Hybrid Video 
+Hybrid GIF 
 --------------------------
 ![Hybrid Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Hybrid.gif)
 
-Vlahos Video 
+Vlahos GIF 
 --------------------
 ![Vlahos Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Vlahos.gif)
 
