@@ -15,13 +15,8 @@ In other words, an image can be understood as the combination of foreground and 
 In Case of an Image shot against a constant colour background: Cb is known and is equal to Ck, hence such an image can be represented as f(Cf, Ck)= α * Cf + (1-α)*Ck ;
 Now if we know α and Cf for this image we can get exactly those pixels locations for which the foreground object is present and then replacing Ck with some other background Vector Cb exactly. That is, New Image formed is f(Cf, Ck, α)= α * Cf + (1-α)*Cb. Its an interesting concept but there is an intrinsic problem associated with the solution discussed in next section.
 
-The Intrinsic Difficulty Of Chroma Keying:
-We have 3 equations with 4 unknown values, so the problem is underdetermined and hence infinite solutions exist.
-The 4 unknowns are Rf,Gf,Bf and α.
-The 3 equations are: Rf =α * Rf + (1-α)* Rb; Gf =α * Gf + (1-α)* Gb; Bf =α * Bf + (1-α)* Bb
-The Solutions suggested in the paper:
-As per the above statements, there are infinite solutions, so finding a correct solution narrows down to the ability of applying the appropriate constraints to shrink the solution space.
-In the Blue Screen Matting Paper, the solution to the problem has been stated by 3 methods and one previous work of:
+In the Blue Screen Matting Paper(https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/BlueMatt-Smith-Blinn.pdf), 
+the solution to the problem has been stated by 3 methods and one previous work of:
 1) Petro Vlahos Method
 2)No Blue
 3)Gray or Flesh
@@ -36,4 +31,16 @@ The best results are obtained by the Thresholding Method
 
 
 
-![Alt Text](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/ezgif.com-gif-maker.gif)
+![Foreground Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/GreenScreen_foreground.gif)
+
+![Background Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Background.gif)
+
+![Thresholding Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Threshold.gif)
+
+![NoGreen Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_NoGreen.gif)
+
+![Hybrid Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Hybrid.gif)
+
+![Vlahos Video](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/Chroma_Vlahos.gif)
+
+
