@@ -36,3 +36,4 @@ The best results are obtained by the Thresholding Method
 
 
 
+![Alt Text](https://github.com/ApoorvaSrivastav/Chroma-Keying/blob/main/ezgif.com-gif-maker.gif)
